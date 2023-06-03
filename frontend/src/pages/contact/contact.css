@@ -1,0 +1,96 @@
+.contact {
+    padding: 20px;
+    background: linear-gradient(rgba(255, 255, 255, 0.381), rgba(255, 255, 255, 0.53)),
+      url("../../images/login.jpg");
+    background-size: cover;
+  }
+  .center-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .line-spacing {
+    margin-bottom: 10px;
+  }
+  
+  .contactDetails {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .companyInfo {
+    width: 300px;
+  }
+  
+  .companyInfo h3 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .companyInfo p {
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font:bold
+  }
+  
+  .mapContainer {
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .map {
+    width: 100%;
+    height: 600px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 1px 20px rgba(197, 161, 16, 0.974);
+  }
+  
+  .contactForm {
+    margin-bottom: 40px;
+  }
+  
+  .contactForm h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .contactForm form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .contactForm textarea {
+    height: 120px;
+  }
+  
+  .contactForm button {
+    padding: 10px 20px;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contactForm button:hover {
+    background-color: #c2185b;
+  }
+  

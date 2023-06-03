@@ -1,0 +1,43 @@
+.header {
+    margin-top: 60px;
+  }
+  
+  .headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", serif;
+    color: #444;
+  }
+  @keyframes fadeColor {
+    0% { color: #333333; } /* Initial font color */
+    50% { color: #ffffff; } /* Fading color */
+    100% { color: #333333; } /* Return to initial font color */
+  }
+
+  .headerTitleSm {
+    position: absolute;
+    top: 24%;
+    left: 65%; /* Adjust this value to move the text to the right */
+    transform: translateX(-50%); /* Center the text horizontally */
+    font-size: 25px;
+    animation: fadeColor 5s infinite;
+  }
+ @keyframes fadeColor1 {
+    0% { color: #382101; } /* Initial font color */
+    50% { color: #7446008e; } /* Fading color */
+    100% { color: #000000; } /* Return to initial font color */
+  }
+  .headerTitleLg {
+    position: absolute;
+    top: 10%;
+    font-size: 85px;
+    animation: fadeColor1 8s infinite;
+  }
+  
+  .headerImg{
+      width: 100%;
+      height: 500px;
+      margin-top: 80px;
+      object-fit: cover;
+  }
